@@ -56,13 +56,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="hBF-vd-pa5">
-                                <rect key="frame" x="16" y="280" width="343" height="367"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n7i-Gj-YiD">
+                                <rect key="frame" x="67" y="216" width="236" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="G1z-Pi-HFB"/>
-                                </connections>
-                            </mapView>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -70,7 +70,7 @@
                         <outlet property="distanceLabel" destination="GGy-i1-q70" id="EzP-He-amX"/>
                         <outlet property="latLabel" destination="dU9-pL-EWc" id="W31-DZ-g1i"/>
                         <outlet property="lngLabel" destination="ky7-Xn-XPs" id="YCZ-29-lXO"/>
-                        <outlet property="mapView" destination="hBF-vd-pa5" id="G3i-IB-WyC"/>
+                        <outlet property="rssiDistanceLabel" destination="n7i-Gj-YiD" id="aGn-vJ-MVQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
